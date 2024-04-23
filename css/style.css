@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+li {
+    padding: 1.5em;
+    font-size: 1.5rem;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #c9242b;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: aquamarine;
+}
+
+
+main {
+    background-color: orchid;
+}
+
+
+.reviews {
+    background-color: yellow;
+}
