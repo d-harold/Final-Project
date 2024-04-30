@@ -7,7 +7,7 @@
 
 
 nav {
-    background-color: aqua;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -29,7 +29,7 @@ li {
 
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -43,6 +43,27 @@ button {
     cursor: pointer;
 }
 
+.opener {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/maxim-hopman-52Kf36w124Y-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 4em;
+    text-shadow: black 3px 0 12px;
+}
+
+h2 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: black 3px 0 12px;
+}
 
 footer {
     background-color: aquamarine;
