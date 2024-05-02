@@ -5,13 +5,57 @@
     box-sizing: border-box;
 }
 
+.rubik-dirt-regular {
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.rubik-wet-paint-regular {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .chelsea-market-regular {
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .rubik-spray-paint-regular {
+    font-family: "Rubik Spray Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sedgwick-ave-display-regular {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rock-salt-regular {
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 nav {
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-family: "Rubik Dirt", system-ui;
 }
+
+.logo {
+    padding-top: 1em;
+    height: 6em;
+    width: auto;
+}
+
+/* comment logo out if you want top header  */
 
 
 ul {
@@ -24,7 +68,7 @@ ul {
 
 li {
     padding: 1.5em;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 
@@ -35,47 +79,182 @@ a {
 
 
 a:hover {
-    color: #c9242b;
+    color: #41af49;
 }
 
 
-button {
-    cursor: pointer;
-}
 
 .opener {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/maxim-hopman-52Kf36w124Y-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh
+    height:100vh;
+    font-family: "Sedgwick Ave Display", cursive;
 }
 
-h1 {
+
+.open1 {
     color: white;
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: center;
-    padding-top: 4em;
+    padding-top: 2.5em;
     text-shadow: black 3px 0 12px;
 }
 
-h2 {
+.open2 {
     color: white;
-    font-size: 5rem;
+    font-size: 6rem;
     text-align: center;
     text-shadow: black 3px 0 12px;
+}
+
+
+button {
+    cursor: pointer;
+    background-color: #1f6934;
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-family: "Rubik Dirt", system-ui;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.5), 0 5px 60px 0 rgba(0,0,0,0.19);
+}
+
+
+button:hover {
+    background-color: #41af49;
+}
+
+main {
+    background-color: black;
+    padding: 3.5em;
+    background-image: linear-gradient(black, #262626, black);
+}
+
+
+.intro {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color: white;
+    text-shadow: black 3px 0 12px;
+    font-family: "Chelsea Market", system-ui;
+}
+
+.latest {
+    background-color: black;
+    padding: 3em;
+    font-family: "Chelsea Market", system-ui;
+}
+
+.late1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.late2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: .5em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tats {
+    padding: 2em;
+    border-radius: 15%;
+}
+
+.newsletter {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/matt-walsh-tVkdGtEe2C4-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:80vh;
+    background-position: center;
+    background-color: black;
+    font-family: "Chelsea Market", system-ui;
+}
+
+
+.news1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 1.5em;
+    text-shadow: black 3px 0 12px;
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.news2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: black 3px 0 12px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.btn {
+    text-align: center;
 }
 
 footer {
-    background-color: aquamarine;
+    background-color: #1b1b1b;
+    text-align: center;
+    color: #1f6934;
+    padding: .5em;
+    font-family: "Rock Salt", cursive;
 }
 
-
-main {
-    background-color: orchid;
-    /* background-image: link rel this is how you put images in the bakcgorund; */
+body {
+    background-color: black;
 }
 
+.artistpage {
+    padding: 3em;
+}
 
-.reviews {
-    background-color: yellow;
+div {
+    padding: 2em;
+}
+
+.artists {
+    color: white;
+    font-family: "Sedgwick Ave Display", cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pics {
+    
+    /* width: 640px;
+    height: 960px; */
+    transform: scale(0.8);
+}
+
+.name {
+    color: white;
+    font-family: "Sedgwick Ave Display", cursive;
+}
+
+.caption {
+    color: white;
+    font-family: "Chelsea Market", system-ui;
+    text-align: center;
 }
