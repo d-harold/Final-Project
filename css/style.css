@@ -55,8 +55,6 @@ nav {
     width: auto;
 }
 
-/* comment logo out if you want top header  */
-
 
 ul {
     display: flex;
@@ -97,7 +95,7 @@ a:hover {
     color: white;
     font-size: 6rem;
     text-align: center;
-    padding-top: 2.5em;
+    padding-top: 3em;
     text-shadow: black 3px 0 12px;
 }
 
@@ -212,7 +210,8 @@ footer {
     text-align: center;
     color: #1f6934;
     padding: .5em;
-    font-family: "Rock Salt", cursive;
+    /* font-family: "Rock Salt", cursive; */
+    font-family: "Chelsea Market", system-ui;
 }
 
 body {
@@ -224,37 +223,48 @@ body {
 }
 
 div {
-    padding: 2em;
+    transform: 0.8;
+    margin: 2em;
 }
 
 .artists {
     color: white;
     font-family: "Sedgwick Ave Display", cursive;
-    font-size: 5rem;
+    font-size: 5.5rem;
     text-align: center;
+    text-shadow: black 3px 0 12px;
 }
 
 .container2 {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    text-shadow: black 3px 0 12px;
+}
+
+
+.bios {
+    height: auto;
+    width: 25rem;
 }
 
 .pics {
-    
-    /* width: 640px;
-    height: 960px; */
-    transform: scale(0.8);
+    width: 25rem;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.5), 0 5px 60px 0 rgba(0,0,0,0.19);
 }
 
 .name {
     color: white;
     font-family: "Sedgwick Ave Display", cursive;
+    text-align: center;
+    padding: .5em;
+    font-size: 2.5rem;
 }
 
 .caption {
     color: white;
     font-family: "Chelsea Market", system-ui;
     text-align: center;
+    padding-bottom: 2em;
 }
+
